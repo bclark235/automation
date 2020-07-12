@@ -46,37 +46,25 @@ public class Fletching {
          
 	}
 	
-	public static void shortbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void shortbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give unstrung_shortbow";
 		stringSelection = new StringSelection(mat1);
@@ -139,37 +127,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void bronzeXbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void bronzeXbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give xbows_crossbow_unstrung_bronze";
 		stringSelection = new StringSelection(mat1);
@@ -245,37 +221,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void bronzeXbowO(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void bronzeXbowO(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give xbows_crossbow_unstrung_bronze";
 		stringSelection = new StringSelection(mat1);
@@ -332,37 +296,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void bronze2HXbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void bronze2HXbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give xbows_crossbow_unstrung_bronze";
 		stringSelection = new StringSelection(mat1);
@@ -419,37 +371,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void longbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void longbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give unstrung_longbow";
 		stringSelection = new StringSelection(mat1);
@@ -500,45 +440,20 @@ public class Fletching {
 		        
 	}
 	
-	public static void oakShortbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void oakShortbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
 		
-		String taskName = "Yak Task = Fletching Oak Shortbow";
-        stringSelection = new StringSelection(taskName);
-		
-        clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
+	    Thread.sleep(1000);
+		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
         Thread.sleep(1000);
@@ -594,37 +509,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void bluriteXbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void bluriteXbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
         
         String questUnlock = "setvar squire 7";
         stringSelection = new StringSelection(questUnlock);
@@ -694,37 +597,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void bluriteXbowO(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void bluriteXbowO(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give xbows_crossbow_unstrung_blurite";
 		stringSelection = new StringSelection(mat1);
@@ -781,37 +672,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void blurite2HXbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void blurite2HXbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give xbows_crossbow_unstrung_blurite";
 		stringSelection = new StringSelection(mat1);
@@ -868,37 +747,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void oakLongBow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void oakLongBow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give unstrung_oak_longbow";
 		stringSelection = new StringSelection(mat1);
@@ -949,37 +816,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void willowShortow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void willowShortow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give unstrung_willow_shortbow";
 		stringSelection = new StringSelection(mat1);
@@ -1030,37 +885,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void ironXbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void ironXbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give xbows_crossbow_unstrung_iron";
 		stringSelection = new StringSelection(mat1);
@@ -1117,37 +960,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void ironXbowO(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void ironXbowO(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give xbows_crossbow_unstrung_iron";
 		stringSelection = new StringSelection(mat1);
@@ -1204,37 +1035,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void iron2HXbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void iron2HXbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give xbows_crossbow_unstrung_iron";
 		stringSelection = new StringSelection(mat1);
@@ -1291,37 +1110,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void willowLongbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void willowLongbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give unstrung_willow_longbow";
 		stringSelection = new StringSelection(mat1);
@@ -1372,37 +1179,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void steelXbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void steelXbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give xbows_crossbow_unstrung_steel";
 		stringSelection = new StringSelection(mat1);
@@ -1466,37 +1261,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void steelXbowO(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void steelXbowO(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give xbows_crossbow_unstrung_steel";
 		stringSelection = new StringSelection(mat1);
@@ -1560,37 +1343,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void steel2HXbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void steel2HXbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give xbows_crossbow_unstrung_steel";
 		stringSelection = new StringSelection(mat1);
@@ -1654,37 +1425,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void mapleShortbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void mapleShortbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give unstrung_maple_shortbow";
 		stringSelection = new StringSelection(mat1);
@@ -1735,37 +1494,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void mithrilXbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void mithrilXbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give xbows_crossbow_unstrung_mithril";
 		stringSelection = new StringSelection(mat1);
@@ -1829,37 +1576,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void mithrilXbowO(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void mithrilXbowO(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give xbows_crossbow_unstrung_mithril";
 		stringSelection = new StringSelection(mat1);
@@ -1923,37 +1658,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void mithril2HXbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void mithril2HXbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give xbows_crossbow_unstrung_mithril";
 		stringSelection = new StringSelection(mat1);
@@ -2017,37 +1740,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void mapleLongbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void mapleLongbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give unstrung_maple_longbow";
 		stringSelection = new StringSelection(mat1);
@@ -2098,37 +1809,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void runiteXbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void runiteXbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give xbows_crossbow_unstrung_runite";
 		stringSelection = new StringSelection(mat1);
@@ -2191,37 +1890,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void runiteXbowO(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void runiteXbowO(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give xbows_crossbow_unstrung_runite";
 		stringSelection = new StringSelection(mat1);
@@ -2285,37 +1972,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void runite2HXbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void runite2HXbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give xbows_crossbow_unstrung_runite";
 		stringSelection = new StringSelection(mat1);
@@ -2372,37 +2047,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void yewShortbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void yewShortbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give unstrung_yew_shortbow";
 		stringSelection = new StringSelection(mat1);
@@ -2453,37 +2116,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void yewLongbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void yewLongbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give unstrung_yew_longbow";
 		stringSelection = new StringSelection(mat1);
@@ -2534,37 +2185,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void magicShortbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void magicShortbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give unstrung_magic_shortbow";
 		stringSelection = new StringSelection(mat1);
@@ -2615,37 +2254,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void magicLongbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void magicLongbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give unstrung_magic_longbow";
 		stringSelection = new StringSelection(mat1);
@@ -2696,37 +2323,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void elderShortbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void elderShortbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give unstrung_elder_shortbow";
 		stringSelection = new StringSelection(mat1);
@@ -2777,37 +2392,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void dragonXbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void dragonXbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give xbows_crossbow_unstrung_dragon";
 		stringSelection = new StringSelection(mat1);
@@ -2864,37 +2467,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void dragonXbowO(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void dragonXbowO(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give xbows_crossbow_unstrung_dragon";
 		stringSelection = new StringSelection(mat1);
@@ -2951,37 +2542,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void dragon2HXbow(Robot robot, String yakTaskSelection) throws IOException, 
-	AWTException, InterruptedException{	
-				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+	public static void dragon2HXbow(Robot robot) throws IOException, 
+	AWTException, InterruptedException{
+		
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give xbows_crossbow_unstrung_dragon";
 		stringSelection = new StringSelection(mat1);
@@ -3038,37 +2617,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void elderLongbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void elderLongbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give unstrung_elder_longbow";
 		stringSelection = new StringSelection(mat1);
@@ -3119,37 +2686,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void zogreCompBow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void zogreCompBow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give unstrung_zogre_bow";
 		stringSelection = new StringSelection(mat1);
@@ -3200,37 +2755,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void adamantXbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void adamantXbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give xbows_crossbow_unstrung_adamantite";
 		stringSelection = new StringSelection(mat1);
@@ -3294,37 +2837,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void adamantXbowO(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void adamantXbowO(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give xbows_crossbow_unstrung_adamantite";
 		stringSelection = new StringSelection(mat1);
@@ -3388,37 +2919,25 @@ public class Fletching {
 		        
 	}
 	
-	public static void adamant2HXbow(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void adamant2HXbow(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 				        
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give xbows_crossbow_unstrung_adamantite";
 		stringSelection = new StringSelection(mat1);

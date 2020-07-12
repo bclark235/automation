@@ -49,7 +49,7 @@ public class WoodCutting {
          
 	}
 	
-	public static void normalLogs(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void normalLogs(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -63,21 +63,6 @@ public class WoodCutting {
 		clipboard.setContents(stringSelection, null);
 		
         robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-
         Thread.sleep(1000);
 
        	robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -165,7 +150,7 @@ public class WoodCutting {
 
 	}
 	
-	public static void oakLogs(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void oakLogs(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -201,21 +186,6 @@ public class WoodCutting {
 		Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_ENTER);
 		Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-
-        Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
         
         String cutTree = "~yakoaklogs";
 		stringSelection = new StringSelection(cutTree);
@@ -281,7 +251,7 @@ public class WoodCutting {
 
 	}
 	
-	public static void willowLogs(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void willowLogs(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -296,19 +266,6 @@ public class WoodCutting {
 		
         robot.keyPress(KeyEvent.VK_BACK_QUOTE);
         Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 
        	robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
@@ -396,7 +353,7 @@ public class WoodCutting {
 
 	}
 	
-	public static void teakLogs(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void teakLogs(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -411,19 +368,6 @@ public class WoodCutting {
 		
         robot.keyPress(KeyEvent.VK_BACK_QUOTE);
         Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 
        	robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
@@ -511,7 +455,7 @@ public class WoodCutting {
 
 	}
 	
-	public static void mapleLogs(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void mapleLogs(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -533,20 +477,7 @@ public class WoodCutting {
         Thread.sleep(1000);
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
+                
         String clear = "~clearinv";
 		stringSelection = new StringSelection(clear);
 						
@@ -626,7 +557,7 @@ public class WoodCutting {
 
 	}
 	
-	public static void acadiaLogs(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void acadiaLogs(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -641,19 +572,6 @@ public class WoodCutting {
 		
         robot.keyPress(KeyEvent.VK_BACK_QUOTE);
         Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 
        	robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
@@ -741,7 +659,7 @@ public class WoodCutting {
 
 	}
 	
-	public static void mahoganyLogs(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void mahoganyLogs(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -756,19 +674,6 @@ public class WoodCutting {
 		
         robot.keyPress(KeyEvent.VK_BACK_QUOTE);
         Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 
        	robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
@@ -856,7 +761,7 @@ public class WoodCutting {
 
 	}
 	
-	public static void pineLogs(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void pineLogs(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -871,19 +776,6 @@ public class WoodCutting {
 		
         robot.keyPress(KeyEvent.VK_BACK_QUOTE);
         Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 
        	robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
@@ -971,7 +863,7 @@ public class WoodCutting {
 
 	}
 	
-	public static void eucalyptusLogs(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void eucalyptusLogs(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -986,19 +878,6 @@ public class WoodCutting {
 		
         robot.keyPress(KeyEvent.VK_BACK_QUOTE);
         Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 
        	robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
@@ -1086,7 +965,7 @@ public class WoodCutting {
 
 	}
 	
-	public static void yewLogs(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void yewLogs(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -1101,19 +980,6 @@ public class WoodCutting {
 		
         robot.keyPress(KeyEvent.VK_BACK_QUOTE);
         Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 
        	robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
@@ -1201,7 +1067,7 @@ public class WoodCutting {
 
 	}
 	
-	public static void magicLogs(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void magicLogs(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -1216,19 +1082,6 @@ public class WoodCutting {
 		
         robot.keyPress(KeyEvent.VK_BACK_QUOTE);
         Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 
        	robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
@@ -1316,7 +1169,7 @@ public class WoodCutting {
 
 	}
 	
-	public static void elderLogs(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void elderLogs(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -1331,19 +1184,6 @@ public class WoodCutting {
 		
         robot.keyPress(KeyEvent.VK_BACK_QUOTE);
         Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 
        	robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
@@ -1431,7 +1271,7 @@ public class WoodCutting {
 
 	}
 	
-	public static void bambooLogs(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void bambooLogs(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -1446,19 +1286,6 @@ public class WoodCutting {
 		
         robot.keyPress(KeyEvent.VK_BACK_QUOTE);
         Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 
        	robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 

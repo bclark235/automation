@@ -49,7 +49,7 @@ public class Mining {
          
 	}
 
-	public static void copperOre(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void copperOre(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -64,19 +64,6 @@ public class Mining {
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
         Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-		
-		String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 
        	robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
@@ -163,7 +150,7 @@ public class Mining {
         }
 	}
 	
-	public static void tinOre(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void tinOre(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -178,19 +165,6 @@ public class Mining {
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
         Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 
        	robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
@@ -277,7 +251,7 @@ public class Mining {
 		
 	}
 	
-	public static void ironOre(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void ironOre(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -292,19 +266,6 @@ public class Mining {
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
         Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 
        	robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
@@ -389,7 +350,7 @@ public class Mining {
         }   
 	}
 	
-	public static void coalOre(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void coalOre(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -404,19 +365,6 @@ public class Mining {
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
         Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-         
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 
        	robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
@@ -501,7 +449,7 @@ public class Mining {
         }
 	}
 	
-	public static void mithrilOre(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void mithrilOre(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -516,19 +464,6 @@ public class Mining {
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
         Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 
        	robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
@@ -613,7 +548,7 @@ public class Mining {
         }
 	}
 	
-	public static void adamantiteOre(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void adamantiteOre(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -628,19 +563,6 @@ public class Mining {
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
         Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 
        	robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
@@ -727,7 +649,7 @@ public class Mining {
 
 	}
 	
-	public static void luminiteOre(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void luminiteOre(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -742,19 +664,6 @@ public class Mining {
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
         Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 
        	robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
@@ -839,7 +748,7 @@ public class Mining {
         }
 	}
 	
-	public static void runiteOre(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void runiteOre(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -854,19 +763,6 @@ public class Mining {
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
         Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 
        	robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
@@ -951,7 +847,7 @@ public class Mining {
         }
 	}
 	
-	public static void orichalcite(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void orichalcite(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -966,19 +862,6 @@ public class Mining {
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
         Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 
        	robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
@@ -1063,7 +946,7 @@ public class Mining {
         }
 	}
 	
-	public static void drakolithOre(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void drakolithOre(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -1078,19 +961,6 @@ public class Mining {
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
         Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 
        	robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
@@ -1174,7 +1044,7 @@ public class Mining {
             } 
         }
 	}
-	public static void necriteOre(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void necriteOre(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		
@@ -1190,19 +1060,6 @@ public class Mining {
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
         Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 
        	robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
@@ -1287,7 +1144,7 @@ public class Mining {
         }
 	}
 	
-	public static void phasmatiteOre(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void phasmatiteOre(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -1302,19 +1159,6 @@ public class Mining {
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
         Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 
        	robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
@@ -1399,7 +1243,7 @@ public class Mining {
         }
 	}
 	
-	public static void baniteOre(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void baniteOre(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -1414,19 +1258,6 @@ public class Mining {
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
         Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 
        	robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
@@ -1511,7 +1342,7 @@ public class Mining {
         }
 	}
 	
-	public static void lightAnimica(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void lightAnimica(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -1526,19 +1357,6 @@ public class Mining {
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
         Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 
        	robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
@@ -1623,7 +1441,7 @@ public class Mining {
         }
 	}
 	
-	public static void darkAnimica(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void darkAnimica(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		int i = 0;
@@ -1645,20 +1463,7 @@ public class Mining {
         Thread.sleep(1000);
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
-        
-        String taskProgress = yakTaskSelection;
-		stringSelection = new StringSelection(taskProgress);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
+                
         String clear = "~clearinv";
 		stringSelection = new StringSelection(clear);
 						

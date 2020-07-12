@@ -68,9 +68,12 @@ public class MouseTestRunner {
 		runeCoin = driver.findElement(By.xpath("//*[@id=\"balance\"]/li[2]/div[1]/p")).getText();
 		
 	*/
-		String yakRecipe = "Fletching Shortbow";
+		
 		
 		DebugProcs.setYakRecipe(robot, "Fletching Shortbow");
+		Thread.sleep(500);
+		Fletching.shortbow(robot);
+		
 		
 		
 		

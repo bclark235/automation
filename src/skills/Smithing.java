@@ -112,37 +112,25 @@ public class Smithing {
 
 	}
 	
-	public static void bronzeSmithFullHelm(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void bronzeSmithFullHelm(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give bronze_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -212,37 +200,25 @@ public class Smithing {
 		
 	}
 	
-	public static void bronzeSmithMedHelm(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void bronzeSmithMedHelm(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give bronze_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -312,37 +288,25 @@ public class Smithing {
 		
 	}
 	
-	public static void bronzeSmithPlatelegs(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void bronzeSmithPlatelegs(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give bronze_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -412,37 +376,25 @@ public class Smithing {
 		
 	}
 	
-	public static void bronzeSmithPlateskirt(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void bronzeSmithPlateskirt(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give bronze_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -512,37 +464,25 @@ public class Smithing {
 		
 	}
 	
-	public static void bronzeSmithPlatebody(Robot robot, String yakTaskSelection) throws IOException, 
-	AWTException, InterruptedException{	
+	public static void bronzeSmithPlatebody(Robot robot) throws IOException, 
+	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give bronze_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -612,37 +552,25 @@ public class Smithing {
 		
 	}
 		
-	public static void bronzeSmithChainbody(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void bronzeSmithChainbody(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give bronze_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -712,37 +640,25 @@ public class Smithing {
 		
 	}
 		
-	public static void bronzeSmithSquareShield(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void bronzeSmithSquareShield(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give bronze_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -812,37 +728,25 @@ public class Smithing {
 		
 	}
 	
-	public static void bronzeSmithKiteshield(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void bronzeSmithKiteshield(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give bronze_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -912,37 +816,25 @@ public class Smithing {
 		
 	}
 	
-	public static void bronzeSmithArmouredBoots(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void bronzeSmithArmouredBoots(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give bronze_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -1012,37 +904,25 @@ public class Smithing {
 		
 	}
 				        
-	public static void bronzeSmithGauntlets(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void bronzeSmithGauntlets(Robot robot) throws IOException, 
 	AWTException, InterruptedException{	
 
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give bronze_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -1109,37 +989,25 @@ public class Smithing {
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 	}
 	
-	public static void ironSmithFullHelm(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void ironSmithFullHelm(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give iron_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -1209,37 +1077,25 @@ public class Smithing {
 		
 	}
 	
-	public static void ironSmithMedHelm(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void ironSmithMedHelm(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give iron_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -1309,37 +1165,25 @@ public class Smithing {
 		
 	}
 	
-	public static void ironSmithPlatelegs(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void ironSmithPlatelegs(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give iron_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -1409,37 +1253,25 @@ public class Smithing {
 		
 	}
 	
-	public static void ironSmithPlateskirt(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void ironSmithPlateskirt(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give iron_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -1509,37 +1341,25 @@ public class Smithing {
 		
 	}
 	
-	public static void ironSmithPlatebody(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void ironSmithPlatebody(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give iron_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -1609,37 +1429,25 @@ public class Smithing {
 		
 	}
 	
-	public static void ironSmithChainbody(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void ironSmithChainbody(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give iron_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -1708,37 +1516,25 @@ public class Smithing {
 		
 	}
 	
-	public static void ironSmithSquareShield(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void ironSmithSquareShield(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give iron_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -1808,37 +1604,25 @@ public class Smithing {
 		
 	}
 	
-	public static void ironSmithKiteshield(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void ironSmithKiteshield(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give iron_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -1908,37 +1692,25 @@ public class Smithing {
 		
 	}
 	
-	public static void ironSmithArmouredBoots(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void ironSmithArmouredBoots(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give iron_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -2008,37 +1780,25 @@ public class Smithing {
 		
 	}
 	
-	public static void ironSmithGauntlets(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void ironSmithGauntlets(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give iron_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -2106,37 +1866,25 @@ public class Smithing {
         
 	}
 	
-	public static void steelSmithFullHelm(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void steelSmithFullHelm(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give steel_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -2206,37 +1954,25 @@ public class Smithing {
 		
 	}
 	
-	public static void steelSmithMedHelm(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void steelSmithMedHelm(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give steel_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -2307,37 +2043,25 @@ public class Smithing {
 		
 	}
 	
-	public static void steelSmithPlatelegs(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void steelSmithPlatelegs(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give steel_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -2407,37 +2131,25 @@ public class Smithing {
 		
 	}
 	
-	public static void steelSmithPlateskirt(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void steelSmithPlateskirt(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give steel_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -2507,37 +2219,25 @@ public class Smithing {
 		
 	}
 	
-	public static void steelSmithPlatebody(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void steelSmithPlatebody(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give steel_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -2607,37 +2307,25 @@ public class Smithing {
 		
 	}
 	
-	public static void steelSmithChainbody(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void steelSmithChainbody(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give steel_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -2707,37 +2395,25 @@ public class Smithing {
 		
 	}
 	
-	public static void steelSmithSquareShield(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void steelSmithSquareShield(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give steel_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -2807,37 +2483,25 @@ public class Smithing {
 		
 	}
 	
-	public static void steelSmithKiteshield(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void steelSmithKiteshield(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give steel_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -2907,37 +2571,25 @@ public class Smithing {
 		
 	}
 	
-	public static void steelSmithArmouredBoots(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void steelSmithArmouredBoots(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give steel_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -3007,37 +2659,25 @@ public class Smithing {
 		
 	}
 	
-	public static void steelSmithGauntlest(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void steelSmithGauntlest(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give steel_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -3105,37 +2745,25 @@ public class Smithing {
         
 	}
 	
-	public static void mithrilSmithFullHelm(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void mithrilSmithFullHelm(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give mithril_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -3203,37 +2831,25 @@ public class Smithing {
 		
 	}
 	
-	public static void mithrilSmithMedHelm(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void mithrilSmithMedHelm(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give mithril_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -3301,37 +2917,25 @@ public class Smithing {
 		
 	}
 	
-	public static void mithrilSmithPlatelegs(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void mithrilSmithPlatelegs(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give mithril_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -3399,37 +3003,25 @@ public class Smithing {
 		
 	}
 	
-	public static void mithrilSmithPlateskirt(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void mithrilSmithPlateskirt(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give mithril_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -3497,37 +3089,25 @@ public class Smithing {
 		
 	}
 	
-	public static void mithrilSmithPlatebody(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void mithrilSmithPlatebody(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give mithril_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -3630,37 +3210,25 @@ public class Smithing {
 		
 	}
 	
-	public static void mithrilSmithChainbody(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void mithrilSmithChainbody(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give mithril_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -3763,37 +3331,25 @@ public class Smithing {
 		
 	}
 	
-	public static void mithrilSmithSquareShield(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void mithrilSmithSquareShield(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give mithril_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -3862,37 +3418,25 @@ public class Smithing {
 		
 	}
 	
-	public static void mithrilSmithKiteshield(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void mithrilSmithKiteshield(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give mithril_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -3961,37 +3505,25 @@ public class Smithing {
 	
 	}
 	
-	public static void mithrilSmithArmouredBoots(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void mithrilSmithArmouredBoots(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give mithril_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -4059,37 +3591,25 @@ public class Smithing {
 		
 	}
 	
-	public static void mithrilSmithGauntlets(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void mithrilSmithGauntlets(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give mithril_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -4157,37 +3677,25 @@ public class Smithing {
         
 	}
 	
-	public static void adamantSmithFullHelm(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void adamantSmithFullHelm(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give adamantite_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -4255,37 +3763,25 @@ public class Smithing {
 		
 	}
 	
-	public static void adamantSmithMedHelm(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void adamantSmithMedHelm(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give adamantite_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -4353,37 +3849,25 @@ public class Smithing {
 		
 	}
 	
-	public static void adamantSmithPlatelegs(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void adamantSmithPlatelegs(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give adamantite_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -4451,37 +3935,25 @@ public class Smithing {
 		
 	}
 	
-	public static void adamantSmithPlateskirt(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void adamantSmithPlateskirt(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give adamantite_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -4549,37 +4021,25 @@ public class Smithing {
 		
 	}
 	
-	public static void adamantSmithPlatebody(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void adamantSmithPlatebody(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give adamantite_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -4682,37 +4142,25 @@ public class Smithing {
 		
 	}
 	
-	public static void adamantSmithChainbody(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void adamantSmithChainbody(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give adamantite_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -4815,37 +4263,25 @@ public class Smithing {
 		
 	}
 	
-	public static void adamantSmithSquareShield(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void adamantSmithSquareShield(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give adamantite_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -4913,37 +4349,25 @@ public class Smithing {
 		
 	}
 	
-	public static void adamantSmithKiteshield(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void adamantSmithKiteshield(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give adamantite_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -5011,37 +4435,25 @@ public class Smithing {
 		
 	}
 	
-	public static void adamantSmithArmouredBoots(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void adamantSmithArmouredBoots(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give adamantite_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -5108,37 +4520,25 @@ public class Smithing {
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		
 	}
-	public static void adamantSmithGauntlets(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void adamantSmithGauntlets(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give adamantite_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -5206,37 +4606,25 @@ public class Smithing {
         
 	}
 	
-	public static void runiteSmithFullHelm(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void runiteSmithFullHelm(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give runite_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -5304,37 +4692,25 @@ public class Smithing {
 		
 	}
 	
-	public static void runiteSmithMedHelm(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void runiteSmithMedHelm(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give runite_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -5402,37 +4778,25 @@ public class Smithing {
 		
 	}
 	
-	public static void runiteSmithPlatelegs(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void runiteSmithPlatelegs(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give runite_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -5536,37 +4900,25 @@ public class Smithing {
 		
 	}
 	
-	public static void runiteSmithPlateskirt(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void runiteSmithPlateskirt(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give runite_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -5669,37 +5021,25 @@ public class Smithing {
 		
 	}
 	
-	public static void runiteSmithPlatebody(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void runiteSmithPlatebody(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give runite_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -5837,37 +5177,25 @@ public class Smithing {
 		
 	}
 	
-	public static void runiteSmithChainbody(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void runiteSmithChainbody(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give runite_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -6005,37 +5333,25 @@ public class Smithing {
 		
 	}
 	
-	public static void runiteSmithSquareShield(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void runiteSmithSquareShield(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give runite_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -6103,37 +5419,25 @@ public class Smithing {
 		
 	}
 	
-	public static void runiteSmithKiteshield(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void runiteSmithKiteshield(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give runite_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -6201,37 +5505,25 @@ public class Smithing {
 		
 	}
 	
-	public static void runiteSmithArmouredBoots(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void runiteSmithArmouredBoots(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give runite_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -6299,37 +5591,25 @@ public class Smithing {
 		
 	}
 	
-	public static void runiteSmithGauntlets(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void runiteSmithGauntlets(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give runite_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -6397,37 +5677,25 @@ public class Smithing {
         
 	}
 	
-	public static void orikalkumSmithFullHelm(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void orikalkumSmithFullHelm(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give orikalkum_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -6495,37 +5763,25 @@ public class Smithing {
 		
 	}
 	
-	public static void orikalkumSmithPlatelegs(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void orikalkumSmithPlatelegs(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give orikalkum_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -6628,37 +5884,25 @@ public class Smithing {
 		
 	}
 	
-	public static void orikalkumSmithPlatebody(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void orikalkumSmithPlatebody(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give orikalkum_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -6798,37 +6042,25 @@ public class Smithing {
 		
 	}
 	
-	public static void orikalkumSmithKiteshield(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void orikalkumSmithKiteshield(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give orikalkum_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -6896,37 +6128,25 @@ public class Smithing {
 		
 	}
 	
-	public static void orikalkumSmithArmouredBoots(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void orikalkumSmithArmouredBoots(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give orikalkum_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -6994,37 +6214,25 @@ public class Smithing {
 		
 	}
 	
-	public static void orikalkumSmithGauntlets(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void orikalkumSmithGauntlets(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give orikalkum_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -7093,37 +6301,25 @@ public class Smithing {
         
 	}
 	
-	public static void necroniumSmithFullHelm(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void necroniumSmithFullHelm(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give necronium_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -7191,37 +6387,25 @@ public class Smithing {
 		
 	}
 
-	public static void necroniumSmithPlatelegs(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void necroniumSmithPlatelegs(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give necronium_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -7324,37 +6508,25 @@ public class Smithing {
 		
 	}
 	
-	public static void necroniumSmithPlatebody(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void necroniumSmithPlatebody(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give necronium_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -7454,7 +6626,7 @@ public class Smithing {
 		Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		
-Thread.sleep(100000);
+		Thread.sleep(100000);
 		
 		forge = "~yakforge";
 		stringSelection = new StringSelection(forge);
@@ -7526,37 +6698,25 @@ Thread.sleep(100000);
 		
 	}
 	
-	public static void necroniumSmithKiteshield(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void necroniumSmithKiteshield(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give necronium_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -7624,37 +6784,25 @@ Thread.sleep(100000);
 		
 	}
 	
-	public static void necroniumSmithArmouredBoots(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void necroniumSmithArmouredBoots(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give necronium_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -7722,37 +6870,25 @@ Thread.sleep(100000);
 		
 	}
 	
-	public static void necroniumSmithGauntlets(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void necroniumSmithGauntlets(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give necronium_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -7820,37 +6956,25 @@ Thread.sleep(100000);
         
 	}
 	
-	public static void baneSmithFullHelm(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void baneSmithFullHelm(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give bane_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -7918,37 +7042,25 @@ Thread.sleep(100000);
 		
 	}
 	
-	public static void baneSmithPlatelegs(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void baneSmithPlatelegs(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give bane_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -8051,37 +7163,25 @@ Thread.sleep(100000);
 		
 	}
 	
-	public static void baneSmithPlatebody(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void baneSmithPlatebody(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give bane_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -8254,37 +7354,25 @@ Thread.sleep(100000);
 		
 	}
 	
-	public static void baneSmithKiteshield(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void baneSmithKiteshield(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give bane_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -8352,37 +7440,25 @@ Thread.sleep(100000);
 		
 	}
 	
-	public static void baneSmithArmouredBoots(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void baneSmithArmouredBoots(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give bane_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -8450,37 +7526,25 @@ Thread.sleep(100000);
 		
 	}
 	
-	public static void baneSmithGauntlets(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void baneSmithGauntlets(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give bane_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -8548,37 +7612,25 @@ Thread.sleep(100000);
 		
 	}
 	
-	public static void elderRuneSmithFullHelm(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void elderRuneSmithFullHelm(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
 		String mat1 = "give elder_rune_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -8646,37 +7698,25 @@ Thread.sleep(100000);
 		
 	}
 	
-	public static void elderRuneSmithPlatelegs(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void elderRuneSmithPlatelegs(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give elder_rune_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -8779,37 +7819,25 @@ Thread.sleep(100000);
 		
 	}
 	
-	public static void elderRuneSmithPlatebody(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void elderRuneSmithPlatebody(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give elder_rune_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -8983,37 +8011,25 @@ Thread.sleep(100000);
 		
 	}
 	
-	public static void elderRuneSmithKiteshield(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void elderRuneSmithKiteshield(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give elder_rune_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -9081,37 +8097,25 @@ Thread.sleep(100000);
 		
 	}
 	
-	public static void elderRuneSmithArmouredBoots(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void elderRuneSmithArmouredBoots(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give elder_rune_bar 5";
 		stringSelection = new StringSelection(mat1);
@@ -9179,37 +8183,25 @@ Thread.sleep(100000);
 		
 	}
 	
-	public static void elderRuneSmithGauntlets(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void elderRuneSmithGauntlets(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-		String taskProgress = yakTaskSelection;
-		StringSelection stringSelection = new StringSelection(taskProgress);
-						
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
+		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
-			        
-		String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_V); 
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        Thread.sleep(1000);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(1000);
 			        
         String mat1 = "give elder_rune_bar 5";
 		stringSelection = new StringSelection(mat1);

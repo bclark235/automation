@@ -45,30 +45,17 @@ public class Runecrafting {
          
 	}
 	
-	public static void airRune(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void airRune(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String tele = "tele 0,44,75,27,32";
-		stringSelection = new StringSelection(tele);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -78,8 +65,8 @@ public class Runecrafting {
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
         
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
+        String tele = "tele 0,44,75,27,32";
+		stringSelection = new StringSelection(tele);
 		
 		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
@@ -123,30 +110,17 @@ public class Runecrafting {
              
 	}
 	
-	public static void mindRune(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void mindRune(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String tele = "tele 0,43,75,35,49";
-		stringSelection = new StringSelection(tele);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -156,8 +130,8 @@ public class Runecrafting {
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
         
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
+        String tele = "tele 0,43,75,35,49";
+		stringSelection = new StringSelection(tele);
 		
 		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
@@ -201,30 +175,17 @@ public class Runecrafting {
                 
 	}
 	
-	public static void waterRune(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void waterRune(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String tele = "tele 0,54,75,29,34";
-		stringSelection = new StringSelection(tele);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -234,8 +195,8 @@ public class Runecrafting {
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
         
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
+        String tele = "tele 0,54,75,29,34";
+		stringSelection = new StringSelection(tele);
 		
 		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
@@ -279,30 +240,17 @@ public class Runecrafting {
                 
 	}
 	
-	public static void earthRune(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void earthRune(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String tele = "tele 0,41,75,33,39";
-		stringSelection = new StringSelection(tele);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -312,8 +260,8 @@ public class Runecrafting {
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
         
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
+        String tele = "tele 0,41,75,33,39";
+		stringSelection = new StringSelection(tele);
 		
 		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
@@ -357,30 +305,17 @@ public class Runecrafting {
                 
 	}
 	
-	public static void fireRune(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void fireRune(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String tele = "tele 0,40,75,23,39";
-		stringSelection = new StringSelection(tele);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -390,8 +325,8 @@ public class Runecrafting {
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
         
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
+        String tele = "tele 0,40,75,23,39";
+		stringSelection = new StringSelection(tele);
 		
 		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
@@ -435,30 +370,17 @@ public class Runecrafting {
                 
 	}
 	
-	public static void bodyRune(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void bodyRune(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String tele = "tele 0,39,75,28,42";
-		stringSelection = new StringSelection(tele);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -468,8 +390,8 @@ public class Runecrafting {
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
         
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
+        String tele = "tele 0,39,75,28,42";
+		stringSelection = new StringSelection(tele);
 		
 		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
@@ -514,30 +436,17 @@ public class Runecrafting {
                 
 	}
 	
-	public static void cosmicRune(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void cosmicRune(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String tele = "tele 0,33,75,32,34";
-		stringSelection = new StringSelection(tele);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -547,8 +456,8 @@ public class Runecrafting {
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
         
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
+        String tele = "tele 0,33,75,32,34";
+		stringSelection = new StringSelection(tele);
 		
 		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
@@ -592,18 +501,19 @@ public class Runecrafting {
                 
 	}
 
-	public static void chaosRune(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void chaosRune(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
 		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
@@ -627,20 +537,6 @@ public class Runecrafting {
         
         String tele = "tele 0,35,75,29,43";
 		stringSelection = new StringSelection(tele);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
-	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
 		
 		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
@@ -684,30 +580,17 @@ public class Runecrafting {
                 
 	}
 	
-	public static void astralRune(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void astralRune(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String tele = "tele 0,33,60,44,25";
-		stringSelection = new StringSelection(tele);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -717,8 +600,8 @@ public class Runecrafting {
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
         
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
+        String tele = "tele 0,33,60,44,25";
+		stringSelection = new StringSelection(tele);
 		
 		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
@@ -762,30 +645,17 @@ public class Runecrafting {
              
 	}
 	
-	public static void natureRune(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void natureRune(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String tele = "tele 0,37,75,32,39";
-		stringSelection = new StringSelection(tele);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -795,8 +665,8 @@ public class Runecrafting {
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
         
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
+        String tele = "tele 0,37,75,32,39";
+		stringSelection = new StringSelection(tele);
 		
 		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
@@ -840,30 +710,17 @@ public class Runecrafting {
                 
 	}
 	
-	public static void lawRune(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void lawRune(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String tele = "tele 0,38,75,30,31";
-		stringSelection = new StringSelection(tele);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -873,8 +730,8 @@ public class Runecrafting {
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
         
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
+        String tele = "tele 0,38,75,30,31";
+		stringSelection = new StringSelection(tele);
 		
 		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
@@ -918,30 +775,17 @@ public class Runecrafting {
                 
 	}
 	
-	public static void deathRune(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void deathRune(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String tele = "tele 0,34,75,30,34";
-		stringSelection = new StringSelection(tele);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -951,8 +795,8 @@ public class Runecrafting {
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
         
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
+        String tele = "tele 0,34,75,30,34";
+		stringSelection = new StringSelection(tele);
 		
 		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
@@ -996,30 +840,17 @@ public class Runecrafting {
                 
 	}
 	
-	public static void bloodRune(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void bloodRune(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String tele = "tele 1,38,76,32,29";
-		stringSelection = new StringSelection(tele);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1029,8 +860,8 @@ public class Runecrafting {
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
         
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
+        String tele = "tele 1,38,76,32,29";
+		stringSelection = new StringSelection(tele);
 		
 		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
@@ -1074,18 +905,19 @@ public class Runecrafting {
                 
 	}
 	
-	public static void soulRune(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void soulRune(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
 		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
@@ -1106,21 +938,7 @@ public class Runecrafting {
         Thread.sleep(1000);
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
-	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
+                
         String quest = "setvar soul_altar_charge 2";
 		stringSelection = new StringSelection(quest);
 		
@@ -1152,30 +970,17 @@ public class Runecrafting {
                 
 	}
 	
-	public static void airRuneSiphon(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void airRuneSiphon(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String tele = "tele 0,49,48,50,35";
-		stringSelection = new StringSelection(tele);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1185,8 +990,8 @@ public class Runecrafting {
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
         
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
+        String tele = "tele 0,49,48,50,35";
+		stringSelection = new StringSelection(tele);
 		
 		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
@@ -1258,30 +1063,17 @@ public class Runecrafting {
              
 	}
 	
-	public static void mindRuneSiphon(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void mindRuneSiphon(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1350,30 +1142,17 @@ public class Runecrafting {
                 
 	}
 	
-	public static void waterRuneSiphon(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void waterRuneSiphon(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1442,30 +1221,17 @@ public class Runecrafting {
                 
 	}
 	
-	public static void earthRuneSiphon(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void earthRuneSiphon(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1534,30 +1300,17 @@ public class Runecrafting {
                 
 	}
 	
-	public static void fireRuneSiphon(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void fireRuneSiphon(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1626,30 +1379,17 @@ public class Runecrafting {
                 
 	}
 	
-	public static void bodyRuneSiphon(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void bodyRuneSiphon(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1718,30 +1458,17 @@ public class Runecrafting {
                 
 	}
 	
-	public static void cosmicRuneSiphon(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void cosmicRuneSiphon(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1810,30 +1537,17 @@ public class Runecrafting {
                 
 	}
 
-	public static void chaosRuneSiphon(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void chaosRuneSiphon(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1902,30 +1616,17 @@ public class Runecrafting {
                 
 	}
 	
-	public static void astralRuneSiphon(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void astralRuneSiphon(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -2008,30 +1709,17 @@ public class Runecrafting {
              
 	}
 	
-	public static void natureRuneSiphon(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void natureRuneSiphon(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -2100,30 +1788,17 @@ public class Runecrafting {
                 
 	}
 	
-	public static void lawRuneSiphon(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void lawRuneSiphon(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -2192,30 +1867,17 @@ public class Runecrafting {
                 
 	}
 	
-	public static void deathRuneSiphon(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void deathRuneSiphon(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -2284,30 +1946,17 @@ public class Runecrafting {
                 
 	}
 	
-	public static void bloodRuneSiphon(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void bloodRuneSiphon(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -2376,30 +2025,17 @@ public class Runecrafting {
                 
 	}
 	
-	public static void soulRuneSiphon(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void soulRuneSiphon(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 

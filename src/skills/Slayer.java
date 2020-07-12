@@ -46,18 +46,19 @@ public class Slayer {
          
 	}
 	
-	public static void slayerTurael(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void slayerTurael(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
 		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
@@ -73,20 +74,6 @@ public class Slayer {
 
 		Thread.sleep(1000);
        	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
-	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
         Thread.sleep(1000);
@@ -248,18 +235,19 @@ public class Slayer {
              
 	}
 	
-	public static void slayerMazchna(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void slayerMazchna(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
 		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
@@ -275,20 +263,6 @@ public class Slayer {
 
 		Thread.sleep(1000);
        	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
-	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
         Thread.sleep(1000);
@@ -450,18 +424,19 @@ public class Slayer {
              
 	}
 	
-	public static void slayerVannaka(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void slayerVannaka(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
 		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
@@ -477,20 +452,6 @@ public class Slayer {
 
 		Thread.sleep(1000);
        	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
-	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
         Thread.sleep(1000);
@@ -653,18 +614,19 @@ public class Slayer {
              
 	}
 	
-	public static void slayerChaeldar(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void slayerChaeldar(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
 		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
@@ -685,21 +647,7 @@ public class Slayer {
         Thread.sleep(1000);
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
-	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
+              
         String setup1 = "setvar slayer_master 4";
 		stringSelection = new StringSelection(setup1);
 		
@@ -855,18 +803,19 @@ public class Slayer {
              
 	}
 	
-	public static void slayerMorvran(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void slayerMorvran(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
 		
+	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
@@ -882,20 +831,6 @@ public class Slayer {
 
 		Thread.sleep(1000);
        	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
-	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
         Thread.sleep(1000);

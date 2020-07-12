@@ -68,30 +68,17 @@ public class Summoning {
 
 	}
 	
-	public static void spiritWolf(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void spiritWolf(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -177,30 +164,17 @@ public class Summoning {
         
 	}
 	
-	public static void dreadfowl(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void dreadfowl(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -286,30 +260,17 @@ public class Summoning {
         
 	}
 	
-	public static void spiritSpider(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void spiritSpider(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -395,30 +356,17 @@ public class Summoning {
         
 	}
 	
-	public static void thornySnail(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void thornySnail(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -504,30 +452,17 @@ public class Summoning {
         
 	}
 	
-	public static void graniteCrab(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void graniteCrab(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -613,30 +548,17 @@ public class Summoning {
         
 	}
 	
-	public static void spiritMosquito(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void spiritMosquito(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -722,30 +644,17 @@ public class Summoning {
 		
 	}
 	
-	public static void desertWyrm(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void desertWyrm(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -831,30 +740,17 @@ public class Summoning {
 
 	}
 	
-	public static void spiritScorpion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void spiritScorpion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -940,30 +836,17 @@ public class Summoning {
 		
 	}
 	
-	public static void spiritTzKih(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void spiritTzKih(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1049,30 +932,17 @@ public class Summoning {
 
 	}
 	
-	public static void albinoRat(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void albinoRat(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1158,30 +1028,17 @@ public class Summoning {
 
 	}
 	
-	public static void spiritKalphite(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void spiritKalphite(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1267,30 +1124,17 @@ public class Summoning {
 
 	}
 	
-	public static void compostMound(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void compostMound(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1376,30 +1220,17 @@ public class Summoning {
 
 	}
 	
-	public static void giantChinchompa(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void giantChinchompa(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1485,30 +1316,17 @@ public class Summoning {
         
 	}
 	
-	public static void vampyrBat(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void vampyrBat(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1594,30 +1412,17 @@ public class Summoning {
 
 	}
 	
-	public static void honeyBadger(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void honeyBadger(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1703,30 +1508,17 @@ public class Summoning {
 
 	}
 	
-	public static void beaver(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void beaver(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1798,30 +1590,17 @@ public class Summoning {
 
 	}
 	
-	public static void voidRavager(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void voidRavager(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1907,30 +1686,17 @@ public class Summoning {
 
 	}
 	
-	public static void voidShifter(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void voidShifter(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -2016,30 +1782,17 @@ public class Summoning {
 
 	}
 	
-	public static void voidSpinner(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void voidSpinner(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -2125,30 +1878,17 @@ public class Summoning {
 
 	}
 	
-	public static void voidTorcher(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void voidTorcher(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -2234,30 +1974,17 @@ public class Summoning {
         
 	}
 	
-	public static void bronzeMinotaur(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void bronzeMinotaur(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -2343,30 +2070,17 @@ public class Summoning {
 
 	}
 	
-	public static void bullAnt(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void bullAnt(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
-        
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -2452,30 +2166,17 @@ public class Summoning {
 
 	}
 	
-	public static void macaw(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void macaw(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -2561,30 +2262,17 @@ public class Summoning {
 
 	}
 	
-	public static void evilTurnip(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void evilTurnip(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -2670,30 +2358,17 @@ public class Summoning {
 
 	}
 	
-	public static void spiritCockatrice(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void spiritCockatrice(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -2779,30 +2454,17 @@ public class Summoning {
 		
 	}
 	
-	public static void spiritGuthatrice(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void spiritGuthatrice(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -2888,30 +2550,17 @@ public class Summoning {
 		
 	}
 	
-	public static void spiritSaratrice(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void spiritSaratrice(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -2997,30 +2646,17 @@ public class Summoning {
 
 	}
 	
-	public static void spiritZamatrice(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void spiritZamatrice(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -3106,30 +2742,17 @@ public class Summoning {
 		
 	}
 	
-	public static void spiritPengatrice(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void spiritPengatrice(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -3215,30 +2838,17 @@ public class Summoning {
         
 	}
 	
-	public static void spiritCoraxatrice(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void spiritCoraxatrice(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -3324,30 +2934,17 @@ public class Summoning {
 		
 	}
 	
-	public static void spiritVulatrice(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void spiritVulatrice(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -3433,30 +3030,17 @@ public class Summoning {
 		
 	}
 	
-	public static void ironMinotaur(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void ironMinotaur(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
-		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-
-		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
         String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
+		StringSelection stringSelection = new StringSelection(clear);
 		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
+		
+		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -3542,30 +3126,17 @@ public class Summoning {
 
 	}
 	
-	public static void pyrelord(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void pyrelord(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -3651,30 +3222,17 @@ public class Summoning {
 		
 	}
 	
-	public static void magpie(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void magpie(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -3760,30 +3318,17 @@ public class Summoning {
 
 	}
 	
-	public static void bloatedLeech(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void bloatedLeech(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -3869,30 +3414,17 @@ public class Summoning {
 
 	}
 	
-	public static void spiritTerrobird(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void spiritTerrobird(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -3978,30 +3510,17 @@ public class Summoning {
 
 	}
 	
-	public static void abyssalParasite(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void abyssalParasite(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -4087,30 +3606,17 @@ public class Summoning {
 
 	}
 	
-	public static void spiritJelly(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void spiritJelly(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -4196,30 +3702,17 @@ public class Summoning {
 
 	}
 	
-	public static void ibis(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void ibis(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -4305,30 +3798,17 @@ public class Summoning {
 		
 	}
 	
-	public static void steelMinotaur(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void steelMinotaur(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -4414,30 +3894,17 @@ public class Summoning {
 
 	}
 	
-	public static void spiritGraahk(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void spiritGraahk(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -4523,30 +3990,17 @@ public class Summoning {
 
 	}
 	
-	public static void spiritKyatt(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void spiritKyatt(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -4632,30 +4086,17 @@ public class Summoning {
 
 	}
 	
-	public static void spiritLarupia(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void spiritLarupia(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -4741,30 +4182,17 @@ public class Summoning {
 		
 	}
 	
-	public static void karam(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void karam(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -4850,30 +4278,17 @@ public class Summoning {
 
 	}
 	
-	public static void smokeDevil(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void smokeDevil(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -4959,30 +4374,17 @@ public class Summoning {
 
 	}
 	
-	public static void abyssalLurker(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void abyssalLurker(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -5068,30 +4470,17 @@ public class Summoning {
 
 	}
 	
-	public static void spiritCobra(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void spiritCobra(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -5177,30 +4566,17 @@ public class Summoning {
 
 	}
 	
-	public static void strangerPlant(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void strangerPlant(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
-        
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -5286,30 +4662,17 @@ public class Summoning {
 
 	}
 	
-	public static void barkerToad(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void barkerToad(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -5395,30 +4758,17 @@ public class Summoning {
 
 	}
 	
-	public static void mithrilMinotaur(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void mithrilMinotaur(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -5504,30 +4854,17 @@ public class Summoning {
 
 	}
 	
-	public static void warTortoise(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void warTortoise(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -5613,30 +4950,17 @@ public class Summoning {
 
 	}
 	
-	public static void bunyip(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void bunyip(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -5722,30 +5046,17 @@ public class Summoning {
         
 	}
 	
-	public static void fruitBat(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void fruitBat(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -5831,30 +5142,17 @@ public class Summoning {
 
 	}
 	
-	public static void ravenousLocust(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void ravenousLocust(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -5940,30 +5238,17 @@ public class Summoning {
 
 	}
 	
-	public static void arcticBear(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void arcticBear(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -6049,30 +5334,17 @@ public class Summoning {
 
 	}
 	
-	public static void phoenix(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void phoenix(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -6158,30 +5430,17 @@ public class Summoning {
 
 	}
 	
-	public static void obsidianGolem(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void obsidianGolem(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -6267,30 +5526,17 @@ public class Summoning {
 
 	}
 	
-	public static void graniteLobster(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void graniteLobster(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -6376,30 +5622,17 @@ public class Summoning {
 
 	}
 	
-	public static void prayingMantis(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void prayingMantis(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -6485,30 +5718,17 @@ public class Summoning {
 
 	}
 	
-	public static void forgeRegent(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void forgeRegent(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -6594,30 +5814,17 @@ public class Summoning {
 
 	}
 	
-	public static void adamantMinotaur(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void adamantMinotaur(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -6703,30 +5910,17 @@ public class Summoning {
 
 	}
 	
-	public static void talonBeast(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void talonBeast(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -6812,30 +6006,17 @@ public class Summoning {
 
 	}
 	
-	public static void giantEnt(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void giantEnt(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -6921,30 +6102,17 @@ public class Summoning {
 
 	}
 	
-	public static void fireTitan(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void fireTitan(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -7030,30 +6198,17 @@ public class Summoning {
 
 	}
 	
-	public static void mossTitan(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void mossTitan(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -7139,30 +6294,17 @@ public class Summoning {
 
 	}
 	
-	public static void iceTitan(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void iceTitan(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -7262,30 +6404,17 @@ public class Summoning {
 
 	}
 	
-	public static void hydra(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void hydra(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -7371,30 +6500,17 @@ public class Summoning {
         
 	}
 	
-	public static void demonBrawler(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void demonBrawler(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -7485,30 +6601,17 @@ public class Summoning {
 
 	}
 	
-	public static void demonDeacon(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void demonDeacon(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -7599,30 +6702,17 @@ public class Summoning {
         
 	}
 	
-	public static void demonExecutioner(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void demonExecutioner(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -7713,30 +6803,17 @@ public class Summoning {
         
 	}
 	
-	public static void spiritDagannoth(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void spiritDagannoth(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -7822,30 +6899,17 @@ public class Summoning {
 
 	}
 	
-	public static void lavaTitan(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void lavaTitan(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -7931,30 +6995,17 @@ public class Summoning {
         
 	}
 	
-	public static void rebornPhoenix(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void rebornPhoenix(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -8040,30 +7091,17 @@ public class Summoning {
 
 	}
 	
-	public static void swampTitan(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void swampTitan(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -8149,30 +7187,17 @@ public class Summoning {
 		
 	}
 	
-	public static void runeMinotaur(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void runeMinotaur(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -8258,30 +7283,17 @@ public class Summoning {
         
 	}
 	
-	public static void unicornStallion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void unicornStallion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -8367,30 +7379,17 @@ public class Summoning {
 
 	}
 	
-	public static void lightCreature(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void lightCreature(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -8476,30 +7475,17 @@ public class Summoning {
 
 	}
 	
-	public static void geyserTitan(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void geyserTitan(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -8585,30 +7571,17 @@ public class Summoning {
 
 	}
 	
-	public static void wolpertinger(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void wolpertinger(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -8708,30 +7681,17 @@ public class Summoning {
 		
 	}
 	
-	public static void abyssalTitan(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void abyssalTitan(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -8817,30 +7777,17 @@ public class Summoning {
 
 	}
 	
-	public static void ironTitan(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void ironTitan(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		  
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -8926,30 +7873,17 @@ public class Summoning {
 
 	}
 	
-	public static void pakYak(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void pakYak(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -9034,30 +7968,17 @@ public class Summoning {
         robot.keyPress(KeyEvent.VK_SPACE);
 	}
 	
-	public static void packMammoth(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void packMammoth(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -9143,30 +8064,17 @@ public class Summoning {
 
 	}
 	
-	public static void steelTitan(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void steelTitan(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        Thread.sleep(1000);
-		
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
+		Thread.sleep(1000);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 

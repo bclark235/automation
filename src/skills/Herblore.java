@@ -46,30 +46,17 @@ public class Herblore {
          
 	}
 	
-	public static void attackPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void attackPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -160,30 +147,17 @@ public class Herblore {
         
 	}
 	
-	public static void rangingPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void rangingPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -274,30 +248,17 @@ public class Herblore {
         
 	}
 	
-	public static void magicPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void magicPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -388,30 +349,17 @@ public class Herblore {
         
 	}
 	
-	public static void strengthPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void strengthPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -502,30 +450,17 @@ public class Herblore {
         
 	}
 	
-	public static void defencePotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void defencePotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -616,30 +551,17 @@ public class Herblore {
         
 	}
 	
-	public static void antiPoison(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void antiPoison(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -730,30 +652,17 @@ public class Herblore {
         
 	}
 	
-	public static void restorePotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void restorePotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -844,30 +753,17 @@ public class Herblore {
         
 	}
 	
-	public static void energyPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void energyPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -958,30 +854,17 @@ public class Herblore {
         
 	}
 	
-	public static void agilityPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void agilityPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1072,30 +955,17 @@ public class Herblore {
         
 	}
 	
-	public static void combatPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void combatPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1186,30 +1056,17 @@ public class Herblore {
         
 	}
 	
-	public static void prayerPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void prayerPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1300,30 +1157,17 @@ public class Herblore {
         
 	}
 	
-	public static void summoningPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void summoningPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1414,30 +1258,17 @@ public class Herblore {
         
 	}
 	
-	public static void craftingPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void craftingPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1528,30 +1359,17 @@ public class Herblore {
         
 	}
 	
-	public static void divinationPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void divinationPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1642,30 +1460,17 @@ public class Herblore {
         
 	}
 	
-	public static void superAttackPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void superAttackPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1756,30 +1561,17 @@ public class Herblore {
         
 	}
 	
-	public static void superAntipoisonPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void superAntipoisonPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1870,30 +1662,17 @@ public class Herblore {
         
 	}
 	
-	public static void fishingPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void fishingPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -1984,30 +1763,17 @@ public class Herblore {
         
 	}
 	
-	public static void superEnergyPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void superEnergyPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -2098,30 +1864,17 @@ public class Herblore {
         
 	}
 	
-	public static void hunterPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void hunterPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -2212,30 +1965,17 @@ public class Herblore {
         
 	}
 	
-	public static void runecraftingPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void runecraftingPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -2325,30 +2065,17 @@ public class Herblore {
         robot.keyPress(KeyEvent.VK_SPACE);
         
 	}
-	public static void superStrengthPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void superStrengthPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -2439,30 +2166,17 @@ public class Herblore {
         
 	}
 	
-	public static void cookingPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void cookingPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -2553,30 +2267,17 @@ public class Herblore {
         
 	}
 	
-	public static void luckPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void luckPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -2667,30 +2368,17 @@ public class Herblore {
         
 	}
 	
-	public static void fletchingPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void fletchingPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -2781,30 +2469,17 @@ public class Herblore {
         
 	}
 	
-	public static void weaponPoison(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void weaponPoison(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -2895,30 +2570,17 @@ public class Herblore {
         
 	}
 	
-	public static void superRestorePotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void superRestorePotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -3009,30 +2671,17 @@ public class Herblore {
         
 	}
 	
-	public static void superPrayerPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void superPrayerPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -3123,30 +2772,17 @@ public class Herblore {
         
 	}
 	
-	public static void superHunterPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void superHunterPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -3237,30 +2873,17 @@ public class Herblore {
         
 	}
 	
-	public static void camouflagePotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void camouflagePotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -3351,30 +2974,17 @@ public class Herblore {
         
 	}
 	
-	public static void superdefencePotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void superdefencePotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -3465,30 +3075,17 @@ public class Herblore {
         
 	}
 	
-	public static void antiPoisonPlus(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void antiPoisonPlus(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -3579,30 +3176,17 @@ public class Herblore {
         
 	}
 	
-	public static void antiPoisonPlusPlus(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void antiPoisonPlusPlus(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -3693,30 +3277,17 @@ public class Herblore {
         
 	}
 	
-	public static void antifire(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void antifire(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -3807,30 +3378,17 @@ public class Herblore {
         
 	}
 	
-	public static void superDivinationPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void superDivinationPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -3921,30 +3479,17 @@ public class Herblore {
         
 	}
 	
-	public static void superRangingPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void superRangingPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -4035,30 +3580,17 @@ public class Herblore {
         
 	}
 	
-	public static void weaponPoisonPlus(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void weaponPoisonPlus(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -4149,30 +3681,17 @@ public class Herblore {
         
 	}
 	
-	public static void superRunecraftingPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void superRunecraftingPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -4263,30 +3782,17 @@ public class Herblore {
         
 	}
 	
-	public static void superMagicPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void superMagicPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -4377,30 +3883,17 @@ public class Herblore {
         
 	}
 	
-	public static void inventionPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void inventionPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -4491,30 +3984,17 @@ public class Herblore {
         
 	}
 	
-	public static void staminaPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void staminaPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -4605,30 +4085,17 @@ public class Herblore {
         
 	}
 	
-	public static void zamorakBrew(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void zamorakBrew(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -4719,30 +4186,17 @@ public class Herblore {
         
 	}
 	
-	public static void antidotePlusPlus(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void antidotePlusPlus(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -4800,30 +4254,17 @@ public class Herblore {
         
 	}
 	
-	public static void superCookingPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void superCookingPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -4914,30 +4355,17 @@ public class Herblore {
         
 	}
 	
-	public static void extremeHunterPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void extremeHunterPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -5028,30 +4456,17 @@ public class Herblore {
         
 	}
 	
-	public static void saradominBrew(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void saradominBrew(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -5142,30 +4557,17 @@ public class Herblore {
         
 	}
 	
-	public static void weaponPoisonPlusPlus(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void weaponPoisonPlusPlus(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -5256,30 +4658,17 @@ public class Herblore {
         
 	}
 	
-	public static void aggressionPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void aggressionPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -5370,30 +4759,17 @@ public class Herblore {
         
 	}
 	
-	public static void adrenalinePotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void adrenalinePotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -5484,30 +4860,17 @@ public class Herblore {
         
 	}
 	
-	public static void superAntifire(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void superAntifire(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -5598,30 +4961,17 @@ public class Herblore {
         
 	}
 	
-	public static void superAdrenalinePotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void superAdrenalinePotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -5712,30 +5062,17 @@ public class Herblore {
         
 	}
 	
-	public static void superInventionPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void superInventionPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -5826,30 +5163,17 @@ public class Herblore {
         
 	}
 	
-	public static void extremeAttackPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void extremeAttackPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -5940,30 +5264,17 @@ public class Herblore {
         
 	}
 	
-	public static void extremeStrengthPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void extremeStrengthPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -6054,30 +5365,17 @@ public class Herblore {
         
 	}
 	
-	public static void extremeSuperAntifirePotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void extremeSuperAntifirePotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -6168,30 +5466,17 @@ public class Herblore {
         
 	}
 	
-	public static void extremeDivinationPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void extremeDivinationPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -6282,30 +5567,17 @@ public class Herblore {
         
 	}
 	
-	public static void extremeDefencePotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void extremeDefencePotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -6396,122 +5668,18 @@ public class Herblore {
         
 	}
 	
-	public static void extendedSuperAntifirePotion(Robot robot, String yakTaskSelection) throws IOException, 
+
+	public static void extremeMagicPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
-	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String mat1 = "give primal_extract";
-		stringSelection = new StringSelection(mat1);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
-	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String mat2 = "give 3dose2antidragon";
-		stringSelection = new StringSelection(mat2);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
-	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String mat3 = "give arbuck";
-		stringSelection = new StringSelection(mat3);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
-	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-        
-        Thread.sleep(1000);
-		robot.mouseMove(1735, 680);	
-		Thread.sleep(1000);
-        robot.mousePress(InputEvent.BUTTON1_MASK);
-        robot.mouseRelease(InputEvent.BUTTON1_MASK);
-        
-        robot.mouseMove(920,417);
-      	Thread.sleep(1000);
-        robot.mousePress(InputEvent.BUTTON1_MASK);
-        robot.mouseRelease(InputEvent.BUTTON1_MASK);
-        
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_SPACE);
-        
-	}
-	
-	public static void extremeMagicPotion(Robot robot, String yakTaskSelection) throws IOException, 
-	AWTException, InterruptedException{
-
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
-		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-
-		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
-		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -6602,30 +5770,17 @@ public class Herblore {
         
 	}
 	
-	public static void extremeRunecraftingPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void extremeRunecraftingPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
-
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -6716,30 +5871,17 @@ public class Herblore {
         
 	}
 	
-	public static void extremeRangingPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void extremeRangingPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -6830,30 +5972,17 @@ public class Herblore {
         
 	}
 	
-	public static void superSaradominBrew(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void superSaradominBrew(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -6944,30 +6073,17 @@ public class Herblore {
         
 	}
 	
-	public static void superZamorakBrew(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void superZamorakBrew(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -7058,30 +6174,17 @@ public class Herblore {
         
 	}
 	
-	public static void prayerRenewalPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void prayerRenewalPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -7172,30 +6275,17 @@ public class Herblore {
         
 	}
 	
-	public static void extremeInventionPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void extremeInventionPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -7286,30 +6376,17 @@ public class Herblore {
         
 	}
 	
-	public static void harvestPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void harvestPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -7373,30 +6450,17 @@ public class Herblore {
         
 	}
 	
-	public static void overloadPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void overloadPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -7537,30 +6601,17 @@ public class Herblore {
         
 	}
 	
-	public static void weaponPoisonPlusPlusPlus(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void weaponPoisonPlusPlusPlus(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -7645,30 +6696,17 @@ public class Herblore {
         
 	}
 	
-	public static void charmingPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void charmingPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -7795,30 +6833,17 @@ public class Herblore {
         
 	}
 	
-	public static void extremeCookingPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void extremeCookingPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -7903,30 +6928,17 @@ public class Herblore {
         
 	}
 	
-	public static void extremePrayerPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void extremePrayerPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -8011,30 +7023,17 @@ public class Herblore {
         
 	}
 	
-	public static void powerburstOfVitality(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void powerburstOfVitality(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -8141,30 +7140,17 @@ public class Herblore {
         
 	}
 	
-	public static void powerburstOfMasterstroke(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void powerburstOfMasterstroke(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -8271,30 +7257,17 @@ public class Herblore {
         
 	}
 	
-	public static void powerburstOfSorcery(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void powerburstOfSorcery(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -8387,30 +7360,17 @@ public class Herblore {
         
 	}
 	
-	public static void powerburstOfAcceleration(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void powerburstOfAcceleration(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
-
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
+		
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -8517,30 +7477,17 @@ public class Herblore {
         
 	}
 	
-	public static void powerburstOfFeats(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void powerburstOfFeats(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -8647,30 +7594,17 @@ public class Herblore {
         
 	}
 	
-	public static void powerburstOfOverkill(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void powerburstOfOverkill(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -8777,30 +7711,17 @@ public class Herblore {
         
 	}
 	
-	public static void spiritualPrayerPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void spiritualPrayerPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -8899,30 +7820,17 @@ public class Herblore {
         
 	}
 	
-	public static void elderOverloadPotion(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void elderOverloadPotion(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -9007,30 +7915,17 @@ public class Herblore {
         
 	}
 	
-	public static void elderOverloadSalve(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void elderOverloadSalve(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 

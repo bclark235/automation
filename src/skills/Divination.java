@@ -67,30 +67,17 @@ public class Divination {
          
 	}
 	
-	public static void paleEnergy(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void paleEnergy(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
-        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
-
+		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
 		Thread.sleep(1000);
-		
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-        
-        String tele = "tele 0,49,48,50,35";
-		stringSelection = new StringSelection(tele);
-		
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
 		robot.keyPress(KeyEvent.VK_CONTROL); 
@@ -100,8 +87,8 @@ public class Divination {
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
         
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
+        String tele = "tele 0,49,48,50,35";
+		stringSelection = new StringSelection(tele);
 		
 		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
@@ -159,7 +146,7 @@ public class Divination {
              
 	}
 	
-	public static void flickeringEnergy(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void flickeringEnergy(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 		
 		String teleout = "tele 0,50,48,6,32";
@@ -186,19 +173,6 @@ public class Divination {
 		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-
-        String taskProgress = yakTaskSelection;
-        stringSelection = new StringSelection(taskProgress);
-		
-        clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
 		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
@@ -265,7 +239,7 @@ public class Divination {
                 
 	}
 	
-	public static void brightEnergy(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void brightEnergy(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
 		String teleout = "tele 0,50,48,6,32";
@@ -292,19 +266,6 @@ public class Divination {
 		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-
-        String taskProgress = yakTaskSelection;
-        stringSelection = new StringSelection(taskProgress);
-		
-        clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
 		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
@@ -371,7 +332,7 @@ public class Divination {
                 
 	}
 	
-	public static void glowingEnergy(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void glowingEnergy(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
 		String teleout = "tele 0,50,48,6,32";
@@ -398,19 +359,6 @@ public class Divination {
 		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-
-        String taskProgress = yakTaskSelection;
-        stringSelection = new StringSelection(taskProgress);
-		
-        clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
 		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
@@ -477,7 +425,7 @@ public class Divination {
                 
 	}
 	
-	public static void sparkingEnergy(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void sparkingEnergy(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
 		String teleout = "tele 0,50,48,6,32";
@@ -504,19 +452,6 @@ public class Divination {
 		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-
-        String taskProgress = yakTaskSelection;
-        stringSelection = new StringSelection(taskProgress);
-		
-        clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
 		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
@@ -583,7 +518,7 @@ public class Divination {
                 
 	}
 	
-	public static void gleamingEnergy(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void gleamingEnergy(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
 		String teleout = "tele 0,50,48,6,32";
@@ -610,19 +545,6 @@ public class Divination {
 		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-
-        String taskProgress = yakTaskSelection;
-        stringSelection = new StringSelection(taskProgress);
-		
-        clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
 		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
@@ -689,7 +611,7 @@ public class Divination {
                 
 	}
 	
-	public static void vibrantEnergy(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void vibrantEnergy(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
 		String teleout = "tele 0,50,48,6,32";
@@ -716,19 +638,6 @@ public class Divination {
 		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-
-        String taskProgress = yakTaskSelection;
-        stringSelection = new StringSelection(taskProgress);
-		
-        clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
 		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
@@ -795,7 +704,7 @@ public class Divination {
                 
 	}
 
-	public static void lustrousEnergy(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void lustrousEnergy(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
 		String teleout = "tele 0,50,48,6,32";
@@ -822,19 +731,6 @@ public class Divination {
 		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-
-        String taskProgress = yakTaskSelection;
-        stringSelection = new StringSelection(taskProgress);
-		
-        clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
 		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
@@ -901,7 +797,7 @@ public class Divination {
                 
 	}
 	
-	public static void elderEnergy(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void elderEnergy(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
 		String teleout = "tele 0,50,48,6,32";
@@ -928,19 +824,6 @@ public class Divination {
 		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-
-        String taskProgress = yakTaskSelection;
-        stringSelection = new StringSelection(taskProgress);
-		
-        clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
 		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
@@ -1021,7 +904,7 @@ public class Divination {
              
 	}
 	
-	public static void brilliantEnergy(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void brilliantEnergy(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
 		String teleout = "tele 0,50,48,6,32";
@@ -1048,19 +931,6 @@ public class Divination {
 		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-
-        String taskProgress = yakTaskSelection;
-        stringSelection = new StringSelection(taskProgress);
-		
-        clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
 		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
@@ -1127,7 +997,7 @@ public class Divination {
                 
 	}
 	
-	public static void radiantEnergy(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void radiantEnergy(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
 		String teleout = "tele 0,50,48,6,32";
@@ -1154,19 +1024,6 @@ public class Divination {
 		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-
-        String taskProgress = yakTaskSelection;
-        stringSelection = new StringSelection(taskProgress);
-		
-        clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
 		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
@@ -1233,7 +1090,7 @@ public class Divination {
                 
 	}
 	
-	public static void luminousEnergy(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void luminousEnergy(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
 		String teleout = "tele 0,50,48,6,32";
@@ -1260,19 +1117,6 @@ public class Divination {
 		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-
-        String taskProgress = yakTaskSelection;
-        stringSelection = new StringSelection(taskProgress);
-		
-        clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
 		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
@@ -1339,7 +1183,7 @@ public class Divination {
                 
 	}
 	
-	public static void positiveEnergy(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void positiveEnergy(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
 		String teleout = "tele 0,50,48,6,32";
@@ -1366,19 +1210,6 @@ public class Divination {
 		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-
-        String taskProgress = yakTaskSelection;
-        stringSelection = new StringSelection(taskProgress);
-		
-        clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
 		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
@@ -1445,7 +1276,7 @@ public class Divination {
                 
 	}
 	
-	public static void negativeEnergy(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void negativeEnergy(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
 		String teleout = "tele 0,50,48,6,32";
@@ -1472,19 +1303,6 @@ public class Divination {
 		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-
-        String taskProgress = yakTaskSelection;
-        stringSelection = new StringSelection(taskProgress);
-		
-        clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
 		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
@@ -1551,7 +1369,7 @@ public class Divination {
                 
 	}
 	
-	public static void incandescentEnergy(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void incandescentEnergy(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
 		String teleout = "tele 0,50,48,6,32";
@@ -1578,19 +1396,6 @@ public class Divination {
 		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-
-        String taskProgress = yakTaskSelection;
-        stringSelection = new StringSelection(taskProgress);
-		
-        clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
 		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
@@ -1657,7 +1462,7 @@ public class Divination {
                 
 	}
 	
-	public static void ancestralEnergy(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void ancestralEnergy(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
 
 		String teleout = "tele 0,50,48,6,32";
@@ -1684,19 +1489,6 @@ public class Divination {
 		clipboard.setContents(stringSelection, null);
 		
 	    Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-        robot.keyPress(KeyEvent.VK_V); 
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        Thread.sleep(1000);
-        robot.keyPress(KeyEvent.VK_ENTER);
-        Thread.sleep(1000);
-
-        String taskProgress = yakTaskSelection;
-        stringSelection = new StringSelection(taskProgress);
-		
-        clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-		
 		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);

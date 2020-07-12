@@ -153,38 +153,25 @@ public class Firemaking {
         
 	}
 	
-	public static void logsFire(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void logsFire(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
+		Thread.sleep(1000);
+		
 	    Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
+		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
         Thread.sleep(1000);
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
         
         String initLogs = "give logs 2";
 		stringSelection = new StringSelection(initLogs);
@@ -215,38 +202,25 @@ public class Firemaking {
         
 	}
 	
-	public static void oakLogFire(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void oakLogFire(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
+		Thread.sleep(1000);
+		
 	    Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
+		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
         Thread.sleep(1000);
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
         
         String initLogs = "give oak_logs 2";
 		stringSelection = new StringSelection(initLogs);
@@ -277,38 +251,25 @@ public class Firemaking {
         
 	}
 	
-	public static void willowLogFire(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void willowLogFire(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
+		Thread.sleep(1000);
+		
 	    Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
+		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
         Thread.sleep(1000);
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
         
         String initLogs = "give willow_logs 2";
 		stringSelection = new StringSelection(initLogs);
@@ -339,38 +300,25 @@ public class Firemaking {
         
 	}
 	
-	public static void teakLogFire(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void teakLogFire(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
-        
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
+		Thread.sleep(1000);
+		
 	    Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
+		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
         Thread.sleep(1000);
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
         
         String initLogs = "give teak_logs 2";
 		stringSelection = new StringSelection(initLogs);
@@ -401,38 +349,25 @@ public class Firemaking {
         
 	}
 	
-	public static void articPineLogFire(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void articPineLogFire(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
+		Thread.sleep(1000);
+		
 	    Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
+		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
         Thread.sleep(1000);
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
         
         String initLogs = "give arctic_pine_log 2";
 		stringSelection = new StringSelection(initLogs);
@@ -468,38 +403,25 @@ public class Firemaking {
 
 	}
 
-	public static void mapleLogFire(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void mapleLogFire(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
+		Thread.sleep(1000);
+		
 	    Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
+		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
         Thread.sleep(1000);
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
         
         String initLogs = "give maple_logs 2";
 		stringSelection = new StringSelection(initLogs);
@@ -531,38 +453,25 @@ public class Firemaking {
         
 	}
 	
-	public static void menaphosAcadiaLogFire(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void menaphosAcadiaLogFire(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
+		Thread.sleep(1000);
+		
 	    Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
+		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
         Thread.sleep(1000);
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
         
         String initLogs = "give menaphos_acadia_log 2";
 		stringSelection = new StringSelection(initLogs);
@@ -593,38 +502,25 @@ public class Firemaking {
         
 	}
 	
-	public static void mahoganyLogFire(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void mahoganyLogFire(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
+		Thread.sleep(1000);
+		
 	    Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
+		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
         Thread.sleep(1000);
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
         
         String initLogs = "give mahogany_logs 2";
 		stringSelection = new StringSelection(initLogs);
@@ -655,38 +551,25 @@ public class Firemaking {
         
 	}
 	
-	public static void eucalyptusLogFire(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void eucalyptusLogFire(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
+		Thread.sleep(1000);
+		
 	    Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
+		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
         Thread.sleep(1000);
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
         
         String initLogs = "give eucalyptus_logs 2";
 		stringSelection = new StringSelection(initLogs);
@@ -717,38 +600,25 @@ public class Firemaking {
         
 	}
 	
-	public static void yewLogFire(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void yewLogFire(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
+		Thread.sleep(1000);
+		
 	    Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
+		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
         Thread.sleep(1000);
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
         
         String initLogs = "give yew_logs 2";
 		stringSelection = new StringSelection(initLogs);
@@ -779,38 +649,25 @@ public class Firemaking {
         
 	}
 	
-	public static void magicLogFire(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void magicLogFire(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
+		Thread.sleep(1000);
+		
 	    Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
+		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
         Thread.sleep(1000);
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
         
         String initLogs = "give magic_logs 2";
 		stringSelection = new StringSelection(initLogs);
@@ -841,38 +698,25 @@ public class Firemaking {
         
 	}
 	
-	public static void elderLogFire(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void elderLogFire(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
         
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
+		Thread.sleep(1000);
+		
 	    Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
+		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
         Thread.sleep(1000);
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
         
         String initLogs = "give elder_logs 2";
 		stringSelection = new StringSelection(initLogs);
@@ -903,38 +747,25 @@ public class Firemaking {
         
 	}
 	
-	public static void driftwoodLogFire(Robot robot, String yakTaskSelection) throws IOException, 
+	public static void driftwoodLogFire(Robot robot) throws IOException, 
 	AWTException, InterruptedException{
-        
-        String taskProgress = yakTaskSelection;
-        StringSelection stringSelection = new StringSelection(taskProgress);
+		
+		String clear = "~clearinv";
+		StringSelection stringSelection = new StringSelection(clear);
 		
 		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 		clipboard.setContents(stringSelection, null);
 		
 		robot.keyPress(KeyEvent.VK_BACK_QUOTE);
+		Thread.sleep(1000);
+		
 	    Thread.sleep(1000);
-
-       	robot.keyPress(KeyEvent.VK_CONTROL); 
+		robot.keyPress(KeyEvent.VK_CONTROL); 
         robot.keyPress(KeyEvent.VK_V); 
         robot.keyRelease(KeyEvent.VK_CONTROL);
         Thread.sleep(1000);
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(1000);
-        
-        String clear = "~clearinv";
-		stringSelection = new StringSelection(clear);
-						
-		clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-		clipboard.setContents(stringSelection, null);
-						
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_CONTROL); 
-		robot.keyPress(KeyEvent.VK_V); 
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(1000);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(1000);
         
         String initLogs = "give elr1_driftwood 2";
 		stringSelection = new StringSelection(initLogs);
